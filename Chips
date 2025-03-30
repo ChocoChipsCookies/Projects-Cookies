@@ -5,31 +5,92 @@ local Window = Rayfield:CreateWindow({
    Icon = 0, -- Icon in Topbar. Can use Lucide Icons (string) or Roblox Image (number). 0 to use no icon (default).
    LoadingTitle = "Projects Cookies 🍪",
    LoadingSubtitle = "by Team Cookies✅",
-   Theme = "Default", -- Check https://docs.sirius.menu/rayfield/configuration/themes
+   Theme = "Default",
 
    DisableRayfieldPrompts = false,
    DisableBuildWarnings = false, -- Prevents Rayfield from warning when the script has a version mismatch with the interface
 
    ConfigurationSaving = {
       Enabled = true,
-      FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Big Hub"
-   },
-
+ 
+            FolderName = nil,
+      FileName = "Projects Cookies 🍪
    Discord = {
-      Enabled = false, -- Prompt the user to join your Discord server if their executor supports it
-      Invite = "noinvitelink", -- The Discord invite code, do not include discord.gg/. E.g. discord.gg/ ABCD would be ABCD
+      Enabled = false,
+      Invite = "Coming Soon",
+      RememberJoins = true
       RememberJoins = true -- Set this to false to make them join the discord every time they load it up
    },
 
-   KeySystem = false, -- Set this to true to use our key system
+Rayfield:Notify({
+   Title = "Projects Cookies 🍪 || Moderator",
+   Content = "Required 🔑Key🔑 to Acces The Script!",
+   Duration = 10,
+   Image = 4483362458,
+})
+
+   KeySystem = true,
    KeySettings = {
-      Title = "Untitled",
-      Subtitle = "Key System",
-      Note = "Join Discord Group to get key", -- Use this to tell the user how to get a key
-      FileName = "Key", -- It is recommended to use something unique as other scripts using Rayfield may overwrite your key file
-      SaveKey = true, -- The user's key will be saved, but if you change the key, they will be unable to use your script
+      Title = "Projects Cookies 🍪 || v1.5",
+      Subtitle = "🔑Key System🔑",
+      Note = "Join Our Discord Group to get key!",
+      FileName = "Key...",
+      SaveKey = true,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = {"Little Cookies"} -- List of keys that will be accepted by the system, can be RAW file links (pastebin, github etc) or simple strings ("hello","key22")
+      Key = {"Little Cookies"}
    }
 })
+
+Rayfield:Notify({
+   Title = "Projects Cookies 🍪 || Moderator",
+   Content = "Succesly full Load The Script!",
+   Duration = 7,
+   Image = 4483362458,
+})
+
+Rayfield:Notify({
+   Title = "Projects Cookies 🍪 || Moderator",
+   Content = "Enjoy Our Script!",
+   Duration = 7,
+   Image = 4483362458,
+})
+
+Rayfield:Notify({
+   Title = "Projects Cookies 🍪 || Moderator",
+   Content = "This Script Made by Team Cookies 🍪!",
+   Duration = 7,
+   Image = 4483362458,
+})
+
+local MainTab = Window:CreateMainTab("Main", 4483362458)
+local Section = Tab:CreateSection("❔Info❔")
+local Label = Tab:CreateLabel("Hello There!, Thanks For Using Our Script!", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Label = Tab:CreateLabel(The Script it's beta!,Try To Look On Script!", 4483362458, Color3.fromRGB(255, 255, 255), false)
+local Label = Tab:CreateLabel("This Script Made by Dark Cookies and Team Cookies!", 4483362458, Color3.fromRGB(255, 255, 255), false)
+
+local Button = Tab:CreateButton({
+   Name = "Infinite Yield",
+   Callback = function()
+   
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Nameless Admin",
+   Callback = function()
+   
+   end,
+})
+
+
+local Tab = Window:CreateTab("Script || 🌌Universal🌌", 4483362458)
+local Section = Tab:CreateSection("Random Script")
+
+
+local Tab = Window:CreateTab("Dead Rails", 4483362458)
+local Section = Tab:CreateSection("Big Hub")
+
+local Tab = Window:CreateTab("👤Players👤", 4483362458)
+
+
+local Tab = Window:CreateTab("⚙️Setting⚙️", 4483362458)
